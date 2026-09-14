@@ -23,14 +23,14 @@ int main()
 }
 void selection_sort(int arr[], int size_of_array){
     for(int i = 0; i<= size_of_array-2;i++){
-        int min =i, j ;
-        for( j =i ; j<= size_of_array-1 ;j++){
+        int min =i;
+        for(int j =i ; j<= size_of_array-1 ;j++){
             if(arr[j]<arr[min]){
                 min =j ;
             }
         }
     int temp = arr[i];
-    arr[i]= arr[j];
-    arr[j]= temp;
+    arr[i]= arr[min];
+    arr[min]= temp;
     }
 }
