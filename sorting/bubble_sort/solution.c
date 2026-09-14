@@ -31,10 +31,10 @@ int main()
 }
 void bubble_sort(int arr[], int size_of_array)
 {
-    for (int i = size_of_array - 1; i >= 1; i++)
+    for (int i = size_of_array - 1; i >= 1; i--)
     {
         int cheak_swap = 0;
-        for (int j = 0; j <= i; i++)
+        for (int j = 0; j <= i-1; j++)
         {
             if (arr[j] > arr[j + 1])
             {
