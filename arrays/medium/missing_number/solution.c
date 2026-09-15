@@ -1,3 +1,4 @@
+// Find the missing number from an array containing numbers from 1 to n.
 #include<stdio.h>
 int missing_duplicate(int arr[], int size){
     int actullySum = (size*(size+1))/2;
