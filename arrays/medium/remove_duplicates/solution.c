@@ -1,3 +1,4 @@
+// Remove all duplicate elements from an array.
 #include <stdio.h>
 
 void remove_duplicate(int arr[], int size)
