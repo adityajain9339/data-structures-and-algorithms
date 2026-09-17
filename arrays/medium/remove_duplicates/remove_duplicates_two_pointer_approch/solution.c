@@ -19,18 +19,45 @@ int remove_duplicate(int arr[], int size)
 
     return write;
 }
-
 int main()
 {
-    int arr[] = {10, 10, 20, 20, 30, 30};
-    int size = 6;
+    int size;
 
-    size = remove_duplicate(arr, size);
+    printf("Enter the size of the array:\n");
+    scanf("%d", &size);
+
+    if (size <= 0)
+    {
+        printf("Invalid array size.\n");
+        return 1;
+    }
+
+    int arr[size];
 
     for (int i = 0; i < size; i++)
     {
-        printf("%d ", arr[i]);
+        printf("Enter the value at index %d:\n", i);
+        scanf("%d", &arr[i]);
     }
 
+    printf("Array you inserted is:\n");
+
+    for (int i = 0; i < size; i++)
+    {
+        printf("%d\n", arr[i]);
+    }
+    int resize= remove_duplicate(arr,size);
+    printf("\nAfter removing the duplicate:\n");
+    for (int i = 0; i < resize; i++)
+    {
+        printf("%d\n", arr[i]);
+    }
+    
+
+    
+
+    
     return 0;
 }
+
+
