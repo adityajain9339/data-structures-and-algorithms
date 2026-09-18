@@ -65,3 +65,13 @@ int reverse_int(int num ){
 // make result negative
 //  ↓
 // -321 
+// ...............................................................
+// i am also doing this code through python slicing the string 
+// Using String and Slicing in Python
+
+// This technique involves converting the number into a string, then reversing that string by using slicing operations. After reversing, the string is converted back into a number. 
+
+// This method is simple and efficient but requires additional space for storing the string representation of the number.
+// therefore it takes the the time coplexcity as well as space complexcity 
+// Time Complexity - O(n)
+// Space Complexity - O(n)
