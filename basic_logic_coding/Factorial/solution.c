@@ -48,3 +48,5 @@ int factorial_recursive(int num)
         }
     }
 }
+// Iterative Solution - O(n) Time and O(1) Space
+// Recursive Solution - O(n) Time and O(n) Space
