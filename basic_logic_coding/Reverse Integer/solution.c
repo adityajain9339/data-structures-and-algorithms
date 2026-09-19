@@ -36,7 +36,8 @@ int reverse_int(int num ){
 // Time Complexity - O(log n)
 // Space Complexity - O(1)
 
-// there is another approch is that interger to string and reverse that string and when reverse is compleate then converte them again to the integer
+// there is another approch is that interger to string and reverse 
+// that string and when reverse is compleate then converte them again to the integer
 // integer
 //    ↓
 // string
@@ -44,6 +45,9 @@ int reverse_int(int num ){
 // reverse string
 //    ↓
 // integer
+// it also take same time and space 
+// Time Complexity - O(log n)
+// Space Complexity - O(1)
 // ..................................................................................
 // my approch is -->----------
 // ------
@@ -51,7 +55,10 @@ int reverse_int(int num ){
 //    ↓
 // extract last digit using % 10
 //    ↓
-// build reversed number
+// build reversed number 
+// my approch is take the time and space
+// Time Complexity - O(log n)
+// Space Complexity - O(1)
 
 
 // but there is problem in my code is that i actully cannot handell the negative number 
