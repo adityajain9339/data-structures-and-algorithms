@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+// Naive Approach] Using a loop - O(sqrt(n)) Time and O(1) Space
+// Start from 1 and square each number until the square exceeds the given number. 
+// The last number whose square is less than or equal to n is the answer.
+
 int floorSqrt(int n) {
     
     // start iteration from 1 until the 
