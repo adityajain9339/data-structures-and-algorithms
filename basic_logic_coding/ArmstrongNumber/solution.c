@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+// Naive Approach
+// 1.Count the number of digits (or find the order). Let the number of digits be n. 
+// 2.For every digit r in input number x, compute rn. 
+// 3.If the sum of all such values is equal to x, then return true, else false. 
+
 // Function to calculate x raised to the power y
 int power(int x, int y)
 {
