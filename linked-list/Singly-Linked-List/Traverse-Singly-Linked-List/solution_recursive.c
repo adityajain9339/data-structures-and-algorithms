@@ -1,5 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
+// Traversal of Singly Linked List (Recursive Approach)
+// Step-by-Step Algorithm:---------------->
+
+// 1.Firstly, we define a recursive method to traverse the singly linked list, which takes a node as a parameter.
+// 2.In this function, the base case is that if the node is null then we will return from the recursive method.
+// 3.We then pass the head node as the parameter to this function.
+// 4.After that, we access and print the data of the current node.
+// 5.At last, we will make a recursive call to this function with the next node as the parameter.
 
 // structure for a linked list node
 struct node
