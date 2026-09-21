@@ -1,5 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+// Traversal of Singly Linked List (Iterative Approach)
+
+// Step-by-Step Algorithm:---------->
+
+// 1. We will initialize a temporary pointer to the head node of the singly linked list.
+// 2. After that, we will check if that pointer is null or not null, if it is null, then return.
+// 3. While the pointer is not null, we will access and print the data of the current node, then we move the pointer to next node.
 
 struct node
 {
