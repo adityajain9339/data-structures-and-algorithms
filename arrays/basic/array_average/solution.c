@@ -9,11 +9,11 @@ int array_average(int arr[] , int size){
 }
 int main(){
     int size;
-    printf("enter the size of the array \n");
+    printf("enter the size of the array : ");
     scanf("%d", &size);
     int arr[size];
     for(int i =0; i<size; i++){
-        printf("enter the value in the index %d:\n", i+1);
+        printf("enter the value in the index %d: ", i+1);
         scanf("%d", &arr[i]);
     }
     float average = array_average(arr, size);
