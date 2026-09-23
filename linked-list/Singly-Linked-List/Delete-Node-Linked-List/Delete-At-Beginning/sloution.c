@@ -1,6 +1,11 @@
 // Deletion at beginning (Removal of first node) in a Linked List
 #include <stdio.h>
 #include <stdlib.h>
+// By Shifting head node to next node of head - O(1) Time and O(1) Space----------->
+// To remove the first node of a linked list, 
+// store the current head in a temporary variable (temp), 
+// move the head pointer to the next node, delete the temporary head node and finally , 
+// return the new head of the linked list.
 
 struct node
 {
