@@ -1,5 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
+// Approach:-------------->
+
+// To perform the deletion operation at the end of linked list, 
+// we need to traverse the list to find the second last node,
+//  then set its next pointer to null.
+//   If the list is empty then there is no node to delete or has only one node then point head to null.
+
+
+// Step-by-step approach:---------->
+
+// 1.Check if list is empty then return NULL.
+// 2.If the list has only one node then delete it and return NULL.
+// 3.Traverse the list to find the second last node.=> Set the next pointer of second last node to NULL.
 
 struct node
 {
