@@ -8,4 +8,4 @@ a.out
 *.o
 
 # Other compiled binaries
-*.out
+ *.out
