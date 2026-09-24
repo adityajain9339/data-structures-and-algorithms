@@ -87,8 +87,10 @@ struct node *InsertAtSpecificPosition(struct node *head, int value, int postion)
         { // this condition is very improtant postion -1 and also check that temp not equal to the NULL ....
             temp = temp->next;
         }
-        if (temp == NULL) // if the postion is greater that the number of node!!..
+        if (temp == NULL){ // if the postion is greater that the number of node!!..
+            printf("you enter the wrong postion\n");
             return head;
+        }
         else
         {
             struct node *newnode = (struct node *)malloc(sizeof(struct node));
@@ -110,7 +112,7 @@ int main()
     struct node *head = creatinglinkedlist(number_node);
     printf("linked list before insetion : ");
     traverseList(head);
-    head = InsertAtSpecificPosition(head, 25, 2);
+    head = InsertAtSpecificPosition(head, 80, 10);
     printf("linked list after insetion : ");
     traverseList(head);
 
