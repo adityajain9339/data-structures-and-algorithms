@@ -1,1 +1,11 @@
 *.exe
+# Compiled C/C++ executables
+solution
+solution_*
+a.out
+
+# Object files
+*.o
+
+# Other compiled binaries
+*.out
