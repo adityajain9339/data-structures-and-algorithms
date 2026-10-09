@@ -2,10 +2,19 @@
 
 int main()
 {
-    int arr[] = {10, 25, 30, 45, 50};
-    int size = 5;
+
     int key;
     int found = 0;
+
+    int size;
+    printf("enter the size of the array : ");
+    scanf("%d", &size);
+    int arr[size];
+    for (int i = 0; i < size; i++)
+    {
+        printf("enter the value in the index %d: ", i + 1);
+        scanf("%d", &arr[i]);
+    }
 
     printf("Enter the element to search: ");
     scanf("%d", &key);
