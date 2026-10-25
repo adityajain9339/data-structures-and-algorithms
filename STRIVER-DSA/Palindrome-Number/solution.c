@@ -21,9 +21,9 @@ int main()
     printf("Gave me the number : ");
     scanf("%d", &a);
     if(isPalindrome(a)){
-        printf("You enter the palindrom number !!!...");
+        printf("You enter the palindrom number %d !!!...", a);
     }
     else{
-        printf("you enter the not the palindrom number !!!...");
+        printf("you enter the not the palindrom number  %d !!!...", a);
     }
 }
