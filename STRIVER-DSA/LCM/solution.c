@@ -10,10 +10,15 @@ int LCM(int n1, int n2)
 
     while (1)
     {
+        if((n1==0 || n2==0)){// handel all the zero input !!..
+            return 0;
+        }
+        
         if (i % n1 == 0 && i % n2 == 0)
         {
             return i;
         }
+
 
         i++;
     }
@@ -27,3 +32,7 @@ int main(){
     printf("the lcm of the two number is - %d", LCM(a, b));
 
 }
+// Complexity analysis
+// Let M = max(n1, n2).
+// - Time Complexity: O(LCM(n1, n2) - M + 1)
+// - Space Complexity: O(1)
