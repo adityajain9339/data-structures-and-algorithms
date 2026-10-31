@@ -8,10 +8,10 @@ int *divisor(int n, int *count)
 {   
     if(n <= 0) return 0;
     int *arr = malloc(n * sizeof(int));
-    // if (arr == NULL)
-    // {
-    // return NULL;
-    // }
+    if (arr == NULL)
+    {
+    return NULL;
+    }
 
     *count = 0;
 
