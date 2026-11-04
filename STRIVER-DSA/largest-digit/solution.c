@@ -19,5 +19,5 @@ int main(){
     int a ;
     printf("Gave me the number : ");
     scanf("%d", &a);
-    printf("The count number is %d \n", largestDigit(a));
+    printf("The largest element in the digit %d number is %d \n", a, largestDigit(a));
 }
