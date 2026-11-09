@@ -1,6 +1,7 @@
 // Check for Perfect Number
 #include <stdio.h>
 // A perfect number is a number whose proper divisors (excluding the number itself) add up to the number itself.
+
 int isPerfect(int n)
 {   if (n==1) return 0;
     int sum = 0;
